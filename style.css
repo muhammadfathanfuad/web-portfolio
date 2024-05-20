@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  background-color: #9db2bf;
+  min-height: 300vh;
+}
+/* Navbar start */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 7%;
+  background-color: rgba(39, 55, 77, 0.8);
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+.navbar .logo {
+  font-size: 26px;
+  font-weight: 700;
+  color: white;
+  font-style: italic;
+}
+.navbar .logo span {
+  color: #64ccc5;
+}
+.navbar a {
+  color: #ffff;
+  display: inline-block;
+  font-size: 18px;
+  margin: 0 20px;
+}
+.navbar a:hover {
+  color: #e48f45;
+}
+/* navbar end */
+/* section 1 */
+.satu {
+  min-height: 690px;
+  margin-top: 0;
+}
+.gambar img {
+  width: 70%;
+  position: absolute;
+  left: 20%;
+  bottom: 60%;
+  transform: translateY(60%);
+  z-index: 100;
+}
+.circle {
+  background-color: #526d82;
+  width: 550px;
+  height: 550px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  left: 42%;
+  top: 13%;
+  transform: translateY(13%);
+}
+.nama {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+}
+.nama1 {
+  font-family: "dancing script", cursive;
+}
+.point {
+  font-size: 40px;
+  font-family: "eb garamond", serif;
+  text-shadow: 0px 0px 50px black;
+  margin-bottom: 0;
+
+  /** TEXT GRADIENT */
+  color: #38fc0f;
+  background-image: -webkit-linear-gradient(45deg, #5d8283 48%, #223a19 1%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+/* about me */
+.dua {
+}
+.About_me {
+  border-radius: 0px;
+}
+.judul {
+  padding-top: 60px;
+  text-align: center;
+}
+.isi1 {
+  margin-right: 700px;
+  margin-left: 90px;
+  margin-top: 30px;
+  border: 1px solid black;
+  background-color: #ebedee;
+  padding: 10px;
+  border-radius: 10px;
+}
+.isi2 {
+  margin-right: 300px;
+  margin-left: 550px;
+  border: 1px solid black;
+  background-color: #ebedee;
+  padding: 10px;
+  border-radius: 10px;
+}
+.isi3 {
+  margin-right: 300px;
+  margin-left: 400px;
+
+  border: 1px solid black;
+  background-color: #ebedee;
+  padding: 10px;
+  border-radius: 10px;
+}
+.mp img {
+  width: 600px;
+  position: relative;
+  left: 700px;
+  bottom: 130px;
+  border-radius: 10px;
+}
+.mk img {
+  width: 200px;
+  position: relative;
+  left: 350px;
+  bottom: 300px;
+  border-radius: 100px;
+}
+.logo img {
+  width: 90px;
+  position: relative;
+  border-radius: 10px;
+  padding: 5px;
+  left: 470px;
+  bottom: 270px;
+}
+
+/* project */
+.text {
+  text-align: center;
+  padding-top: 50px;
+}
+.project {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 70px;
+}
+
+.card {
+  background-color: #66a5ad;
+  color: #003b46;
+  width: 250px;
+  height: auto;
+}
+.card img {
+  width: 250px;
+  height: auto;
+}
+.card .deskripsi {
+  padding: 12px;
+}
+.card h2 {
+  font-size: 120px;
+}
+/* sosmed */
+.text-2 {
+  margin-top: 30px;
+  padding-top: 55px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.map {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 180px;
+}
+
+/* kontak */
+.contact-form {
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+  bottom: 10px;
+  margin: 0px;
+  margin-left: 700px;
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.text-3 {
+  margin-bottom: 20px;
+}
+/* kontak */
+.kontak {
+  padding-top: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+button[type="submit"] {
+  background-color: #66a5ad;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+  background-color: #003b46;
+}
+
+/* Footer */
+footer {
+  background-color: rgb(39, 55, 77);
+  text-align: center;
+  padding: 1rem 0 3rem;
+  margin-top: 20px;
+}
+.sosmed {
+  font-size: 30px;
+}
+.icon1 {
+  margin: 10px 0px 20px 0px;
+  color: #e1306c;
+}
+.icon2 {
+  margin: 10px 0px 20px 15px;
+  color: #1877f2;
+}
+.icon3 {
+  margin: 10px 0px 20px 15px;
+  color: #000000;
+}
+.icon4 {
+  margin: 10px 0px 20px 15px;
+  color: #ff0000;
+}
+footer .socials {
+  padding: 1rem 0;
+}
+
+footer .socials a {
+  color: #fff;
+  margin: 1rem;
+}
+
+footer .socials a:hover,
+footer .links a:hover {
+  color: var(--bg);
+}
+
+footer .links {
+  margin-bottom: 1.4rem;
+}
+
+footer .links a {
+  color: #fff;
+  padding: 0.7rem 1rem;
+}
+
+footer .credit {
+  font-size: 0.8rem;
+}
+
+footer .credit a {
+  color: var(--bg);
+  font-weight: 700;
+}
+footer .credit span {
+  color: #64ccc5;
+  font-weight: 700;
+}
+footer .credit p {
+  color: white;
+}
